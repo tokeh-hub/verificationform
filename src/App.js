@@ -23,7 +23,7 @@ function App() {
       
     }
    }
-
+   /*eslint-disable*/
    useEffect(()=>{
     console.log('id',id)
     console.log('location',location)
