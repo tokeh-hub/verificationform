@@ -1,7 +1,7 @@
 import './App.css';
 import useAxios from './useAxios';
 import { useParams } from 'react-router-dom';
-import {useEffect, useState} from 'react'
+import {useState} from 'react'
 import useGeolocation from './useGeolocation';
 
 function App() {
