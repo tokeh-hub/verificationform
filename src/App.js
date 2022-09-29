@@ -18,16 +18,18 @@ function App() {
         password : password,
         location: location.coordinates
       })
+      console.log(id)
+      console.log(location)
       console.log(response)
     } catch (error) {
       
     }
    }
    /*eslint-disable*/
-   useEffect(()=>{
-    console.log('id',id)
-    console.log('location',location)
-   },[])
+  //  useEffect(()=>{
+  //   console.log('id',id)
+  //   console.log('location',location)
+  //  },[])
 
   return (
     <form onSubmit={verifyForm} className="">
